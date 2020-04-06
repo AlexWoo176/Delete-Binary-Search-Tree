@@ -20,25 +20,24 @@ public class BinarySearchTree {
         insertNode(this.root, value);
     }
 
-    private BstNode insertNode(BstNode root, int data) {
-
+    private BstNode insertNode(BstNode root, int value) {
         BstNode tmpNode = null;
-        if(root.getValue() >= data) {
+        if(root.getValue() >= value) {
             if(root.getLeft() == null) {
-                root.setLeft(new BstNode(data));
+                root.setLeft(new BstNode(value));
                 return root.getLeft();
             } else {
                 tmpNode = root.getLeft();
             }
         } else {
             if(root.getRight() == null) {
-                root.setRight(new BstNode(data));
+                root.setRight(new BstNode(value));
                 return root.getRight();
             } else {
                 tmpNode = root.getRight();
             }
         }
-        return insertNode(tmpNode, data);
+        return insertNode(tmpNode, value);
     }
 
     public void delete(int value) {
