@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f29ab81-2d43-4582-bee8-c56880a4f745" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aA0OtitG8WFC1mttnF9gA5Akf8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codegym.MainTest" />
+      <module name="Delete-Binary-Search-Tree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f29ab81-2d43-4582-bee8-c56880a4f745" name="Default Changelist" comment="" />
+      <created>1586163061680</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586163061680</updated>
+      <workItem from="1586163063052" duration="5935000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="184" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1586166547503">
+      <screen x="0" y="27" width="1600" height="800" />
+    </state>
+    <state x="533" y="184" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.27.1600.800@0.27.1600.800" timestamp="1586166547503" />
+    <state x="608" y="27" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1586167669063">
+      <screen x="0" y="27" width="1600" height="800" />
+    </state>
+    <state x="608" y="27" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1600.800@0.27.1600.800" timestamp="1586167669063" />
+    <state width="1554" height="195" key="GridCell.Tab.0.bottom" timestamp="1586168854341">
+      <screen x="0" y="27" width="1600" height="800" />
+    </state>
+    <state width="1554" height="195" key="GridCell.Tab.0.bottom/0.27.1600.800@0.27.1600.800" timestamp="1586168854341" />
+    <state width="1554" height="195" key="GridCell.Tab.0.center" timestamp="1586168854341">
+      <screen x="0" y="27" width="1600" height="800" />
+    </state>
+    <state width="1554" height="195" key="GridCell.Tab.0.center/0.27.1600.800@0.27.1600.800" timestamp="1586168854341" />
+    <state width="1554" height="195" key="GridCell.Tab.0.left" timestamp="1586168854340">
+      <screen x="0" y="27" width="1600" height="800" />
+    </state>
+    <state width="1554" height="195" key="GridCell.Tab.0.left/0.27.1600.800@0.27.1600.800" timestamp="1586168854340" />
+    <state width="1554" height="195" key="GridCell.Tab.0.right" timestamp="1586168854341">
+      <screen x="0" y="27" width="1600" height="800" />
+    </state>
+    <state width="1554" height="195" key="GridCell.Tab.0.right/0.27.1600.800@0.27.1600.800" timestamp="1586168854341" />
+  </component>
+</project>
