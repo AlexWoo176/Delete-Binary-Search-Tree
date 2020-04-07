@@ -17,6 +17,7 @@ public class MainTest {
         System.out.println("In Order Traversal");
         bin.inOrderTraversal();
         System.out.println();
+        System.out.println("Check whether Node with value 45 exists : " + bin.findNode(45));
         bin.delete(100);
         System.out.println("In Order Traversal after delete Node 100: " );
         bin.inOrderTraversal();
