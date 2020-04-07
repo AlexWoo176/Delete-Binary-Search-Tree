@@ -17,10 +17,12 @@ public class MainTest {
         System.out.println("In Order Traversal");
         bin.inOrderTraversal();
         System.out.println();
-        bin.delete(101);
+        bin.delete(100);
+        System.out.println("In Order Traversal after delete Node 100: " );
         bin.inOrderTraversal();
         System.out.println();
-        bin.delete(59);
+        bin.delete(55);
+        System.out.println("In Order Traversal after delete Node 55: ");
         bin.inOrderTraversal();
     }
 }

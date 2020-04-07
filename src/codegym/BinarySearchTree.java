@@ -20,7 +20,7 @@ public class BinarySearchTree {
         insertNode(this.root, value);
     }
 
-    private BstNode insertNode(BstNode root, int value) {
+    public BstNode insertNode(BstNode root, int value) {
         BstNode tmpNode = null;
         if(root.getValue() >= value) {
             if(root.getLeft() == null) {
@@ -44,8 +44,7 @@ public class BinarySearchTree {
         deleteNode(this.root, value);
     }
 
-    private BstNode deleteNode(BstNode root, int value) {
-
+    public BstNode deleteNode(BstNode root, int value) {
         if(root == null) return root;
 
         if(value < root.getValue()) {
@@ -54,25 +53,21 @@ public class BinarySearchTree {
             root.setRight(deleteNode(root.getRight(), value));
         } else {
             if(root.getLeft() == null && root.getRight() == null) {
-                System.out.println("deleting "+value);
                 return null;
             } else if(root.getLeft() == null) {
-                System.out.println("deleting "+value);
                 return root.getRight();
             } else if(root.getRight() == null) {
-                System.out.println("deleting "+value);
                 return root.getLeft();
             } else {
                 int minValue = minValue(root.getRight());
                 root.setValue(minValue);
                 root.setRight(deleteNode(root.getRight(), minValue));
-                System.out.println("deleting "+value);
             }
         }
         return root;
     }
 
-    private int minValue(BstNode node) {
+    public int minValue(BstNode node) {
 
         if(node.getLeft() != null) {
             return minValue(node.getLeft());
@@ -84,7 +79,7 @@ public class BinarySearchTree {
         doInOrder(this.root);
     }
 
-    private void doInOrder(BstNode root) {
+    public void doInOrder(BstNode root) {
 
         if(root == null) return;
         doInOrder(root.getLeft());
